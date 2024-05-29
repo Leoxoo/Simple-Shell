@@ -1,4 +1,4 @@
-Overview
+## Overview
 
 The Simple Shell is a Unix-like shell implemented in C. It supports the execution of both built-in and external commands, manages command history, and allows for command pipelining using pipes (|).
 Features
@@ -7,7 +7,7 @@ Features
 - Pipelining: Support for command pipelining, enabling the execution of commands in sequence with data passed between them.
 - Robust Memory Management: Ensures proper allocation and deallocation of memory to prevent leaks.
 
-Built-In Commands:
+## Built-In Commands:
 
 Change the current directory to < directory >.
 ~~~
@@ -26,7 +26,7 @@ Exit the shell.
 exit
 ~~~
 
-Usage
+## Usage
 
 To compile the Simple Shell, use the following command:
 ~~~
@@ -37,7 +37,7 @@ To start the Simple Shell, simply run the compiled executable:
 ~~~
 ./sish
 ~~~
-Entering Commands:
+### Entering Commands:
 - Type commands as you would in a standard Unix shell.
 - Use pipes (|) to chain commands together.
 - Use the history command to view the command history.
